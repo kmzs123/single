@@ -16,8 +16,8 @@
 <?php endif; ?>
     <link href="<?php $this -> options -> themeUrl('static/kico.css'); ?>" rel="stylesheet" type="text/css"/>
     <link href="<?php $this -> options -> themeUrl('static/single.css'); ?>" rel="stylesheet" type="text/css"/>
-    <link href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/v4-shims.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/v4-shims.min.css" rel="stylesheet" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <?php if($this -> options -> background): ?>
     <style>body:before{content: ''; background-image: url(<?php $this -> options -> background(); ?>)}</style>
